@@ -1,0 +1,96 @@
+            box-sizing: border-box;
+            body {
+                font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+                color: #777;
+                background: #777;
+                width: 960px;
+                font-size: 18px;
+            }
+            
+            header {
+                width: 2000px;
+                height: 40px;
+                text-align: center;
+                background: #ebebeb;
+            }
+            
+            nav {
+                width: 2000px;
+                height: 40px;
+                text-align: center;
+                background: #ebebeb;
+            }
+            
+            aside {
+                float: right;
+                width: 20px;
+                height: 70px;
+                background: #ebebeb;
+            }
+            
+            section {
+                float: left;
+            }
+            
+            article {
+                text-align: center;
+                color: #ebebeb;
+                background: #777;
+                float: left;
+                padding: 20px;
+                width: 300px;
+                height: 150px;
+            }
+            
+            h1 {
+                float: left;
+                width: 300px;
+                height: 30px;
+                background: white;
+                color: black;
+            }
+            
+            h2 {
+                float: left;
+                width: 300px;
+                height: 30px;
+                background: white;
+                color: black;
+            }
+            
+            h3 {
+                float: left;
+                width: 300px;
+                height: 30px;
+                background: white;
+                color: black;
+            }
+            
+            p {
+                float: left;
+                width: 300px;
+                height: 30px;
+                background: white;
+                color: black;
+            }
+            
+            section {
+                float: left;
+                padding: 20px;
+                width: 495px;
+                height: 495px;
+                color: black;
+                background: #ebebeb;
+            }
+            
+            .clearfix::after {
+                content: "";
+                clear: both;
+            }
+            
+            footer {
+                float: bottom;
+                width: 2000px;
+                height: 40px;
+                background: #ebebeb;
+            }
